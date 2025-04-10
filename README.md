@@ -1,5 +1,54 @@
 ethers.js学习文档
 
+前置 node 
+1、初始化
+npm init
+2、package.json 添加key:value("type":"module")
+```
+//origin
+{
+  "name": "helloethers",
+  "version": "1.0.0",
+  "main": "helloEthers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.13.5"
+  }
+}
+
+//update
+{
+  "name": "helloethers",
+  "version": "1.0.0",
+  "main": "helloEthers.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.13.5"
+  }
+}
+
+```
+3、卸载和更新ethers的方法
+3-1、npm uninstall（卸载）
+```
+npm uninstall ethers
+```
+3-2、npm i或者npm install（安装）
+npm i ethers@version
+```
+npm i ethers@5.6.9
+```
 v5和v6 Provider差异
 1、ethers v5获取提供者
 ```
@@ -25,6 +74,7 @@ main()
 ```
 2、ethers v6获取提供者
 ```
+// 导入ethers包 ethers @6.13.5
 import { ethers } from "ethers";
 
 //ethers v6 可以获取数据，是主网的数据mainnet

@@ -41,11 +41,13 @@ ethers.js学习文档
 
 ```
 3、卸载和更新ethers的方法
+
 3-1、npm uninstall（卸载）
 ```
 npm uninstall ethers
 ```
 3-2、npm i或者npm install（安装）
+
 npm i ethers@version
 ```
 npm i ethers@5.6.9

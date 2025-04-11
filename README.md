@@ -1,8 +1,9 @@
 ethers.js学习文档
 
-前置 node 
-1、初始化
-npm init
+前置（node调整）
+
+1、初始化 npm init 
+
 2、package.json 添加key:value("type":"module")
 ```
 //origin

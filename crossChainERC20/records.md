@@ -26,6 +26,8 @@
 
 ### 系统架构
 
+
+
 链 A（Sepolia）                  JS Listener                    链 B（Holesky）
 ┌───────────────┐         ┌──────────────────────┐         ┌───────────────┐
 │  CrossChainToken │       │ 监听 Bridge 事件        │         │  CrossChainToken │

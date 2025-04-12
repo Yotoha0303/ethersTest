@@ -4,21 +4,15 @@
 
 本项目旨在实现一个简单的跨链资产转移系统，模拟现实中区块链之间的资产桥接（Bridge）功能，完成从**一条链上销毁代币（burn）并在另一条链上铸造代币（mint）**的过程，验证事件监听、交易广播和多链交互的基本流程。
 
-技术栈：
+## 技术栈与工具
 
-Solidity 0.8.10 — 编写 ERC-20 兼容的跨链桥合约
-
-OpenZeppelin — 安全继承 ERC20、Ownable 等模块
-
-Ethers.js v6 — 用于事件监听、交易签名与发送
-
-Remix — 合约部署与交互调试
-
-Hardhat — 本地开发环境与测试（可拓展）
-
-Alchemy RPC — 分别接入 Sepolia、Holesky 等测试网络
-
-Node.js — 编写监听脚本，实现链间交互逻辑
+- **Solidity 0.8.10** — 编写 ERC-20 兼容的跨链桥合约
+- **OpenZeppelin** — 安全继承 ERC20、Ownable 等模块
+- **Ethers.js v6** — 用于事件监听、交易签名与发送
+- **Remix** — 合约部署与交互调试
+- **Hardhat** — 本地开发环境与测试（可拓展）
+- **Alchemy RPC** — 分别接入 Sepolia、Holesky 等测试网络
+- **Node.js** — 编写监听脚本，实现链间交互逻辑
 
 ### 实现功能：	
 

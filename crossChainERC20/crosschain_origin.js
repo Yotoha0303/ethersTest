@@ -1,15 +1,15 @@
 import { ethers, JsonRpcProvider } from "ethers";
 
 //初始化两条链
-// const providerSepolia = new JsonRpcProvider("https://eth-sepolia.g.alchemy.com/v2/IYI7vfqc5egsDWgcIMDEKsNkpE5NzosH");
-// const providerHolesky = new JsonRpcProvider("https://eth-holesky.g.alchemy.com/v2/IYI7vfqc5egsDWgcIMDEKsNkpE5NzosH");
+// const providerSepolia = new JsonRpcProvider("https://eth-sepolia.g.alchemy.com/v2/YOU_KEY");
+// const providerHolesky = new JsonRpcProvider("https://eth-holesky.g.alchemy.com/v2/YOU_KEY");
 
 //使用wss订阅获取事件消息
-const providerSepolia = new ethers.WebSocketProvider("wss://eth-sepolia.g.alchemy.com/v2/IYI7vfqc5egsDWgcIMDEKsNkpE5NzosH");
-const providerHolesky = new ethers.WebSocketProvider("wss://eth-holesky.g.alchemy.com/v2/IYI7vfqc5egsDWgcIMDEKsNkpE5NzosH");
+const providerSepolia = new ethers.WebSocketProvider("wss://eth-sepolia.g.alchemy.com/v2/YOU_KEY");
+const providerHolesky = new ethers.WebSocketProvider("wss://eth-holesky.g.alchemy.com/v2/YOU_KEY");
 
 //钱包私钥
-const privateKey = "077ef9ae9615c25490aa5c3a40beab415fbfc468a7e55e3354f769c17c2de06e";
+const privateKey = "YOU_WALLET";
 const walletSepolia = new ethers.Wallet(privateKey, providerSepolia);
 const walletHolesky = new ethers.Wallet(privateKey, providerHolesky);
 

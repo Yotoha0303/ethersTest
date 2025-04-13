@@ -10,7 +10,6 @@
 - **OpenZeppelin** — 安全继承 ERC20、Ownable 等模块
 - **Ethers.js v6** — 用于事件监听、交易签名与发送
 - **Remix** — 合约部署与交互调试
-- **Hardhat** — 本地开发环境与测试（可拓展）
 - **Alchemy RPC** — 分别接入 Sepolia、Holesky 等测试网络
 - **Node.js** — 编写监听脚本，实现链间交互逻辑
 
